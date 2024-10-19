@@ -1,6 +1,6 @@
 # Definir una instancia EC2
 resource "aws_instance" "example" {
-  ami           = "ami-0c55b159cbfafe1f0"  # Amazon Linux AMI
+  ami           = "ami-01e3c4a339a264cc9"  # Amazon Linux AMI
   instance_type = "t2.micro"
 
   tags = {
